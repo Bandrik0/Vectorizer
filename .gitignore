@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+.venv/
+
+# macOS
+.DS_Store
+
+# App runtime
+uploads/
+outputs/
+
+# Node (just in case)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Python build artifacts ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+develop-eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.venv*/
+pythonenv*/
+
+# --- Logs & caches ---
+*.log
+logs/
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+coverage.xml
+htmlcov/
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- App data (keep folders empty with .gitkeep if needed) ---
+uploads/
+outputs/
+!uploads/.gitkeep
+!outputs/.gitkeep
+
+# --- Environment variables ---
+.env
+.env.*

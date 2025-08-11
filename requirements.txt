@@ -1,0 +1,11 @@
+Flask==3.0.3
+Pillow==11.3.0
+opencv-python==4.12.0.88
+svgwrite==1.4.3
+# Aşağıdakiler opsiyoneldir; yalnız araç yoksa import edilir:
+cairosvg==2.8.2
+
+# Deployment (Render) extras
+Flask-Cors==4.0.0
+gunicorn==21.2.0
+numpy==2.0.2
