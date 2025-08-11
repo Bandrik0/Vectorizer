@@ -10,8 +10,9 @@ PNG_DPI = 600              # DPI when width is Auto
 PNG_WIDTH_PX = 0           # 0 = Auto; >0 forces pixel width for crisper PNG
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-UPLOAD_DIR = os.path.join(APP_ROOT, "uploads")
-OUTPUT_DIR = os.path.join(APP_ROOT, "outputs")
+# Use /tmp for Docker compatibility (guaranteed write permissions)
+UPLOAD_DIR = os.path.join("/tmp", "vectorizer_uploads")
+OUTPUT_DIR = os.path.join("/tmp", "vectorizer_outputs")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
