@@ -15,6 +15,7 @@ app_port: 7860
 <p><b>Wandle Logos/Grafiken in saubere, hochqualitative SVGs um — mit Live‑Fortschritt, Advanced Settings und 1‑Klick PNG/PDF‑Export.</b></p>
 
 <p>
+  <a href="https://huggingface.co/spaces/bandrik0/vectorizer"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Try%20Now-orange?style=for-the-badge&logo=huggingface"/></a>
   <a href="#-quick-start"><img alt="Quick Start" src="https://img.shields.io/badge/Quick%20Start-1%20Minute-brightgreen?style=for-the-badge"/></a>
   <a href="#-deploy"><img alt="Deploy" src="https://img.shields.io/badge/Deploy-Hugging%20Face%20Spaces-blue?style=for-the-badge&logo=huggingface"/></a>
   <a href="#-license"><img alt="License" src="https://img.shields.io/badge/License-MIT-black?style=for-the-badge"/></a>
@@ -36,6 +37,7 @@ app_port: 7860
 - **Advanced Settings**: quality presets, PNG pixel width & DPI, fill color
 - **Smart exports**: SVG + high‑DPI **PNG** + vector **PDF** (Inkscape → librsvg → CairoSVG fallback)
 - **Modern UI** (Bootstrap), drag‑free simple upload, instant download links
+- **🚀 [Live Demo](https://huggingface.co/spaces/bandrik0/vectorizer)** - Teste es jetzt!
 
 ---
 
