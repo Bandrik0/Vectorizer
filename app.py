@@ -93,7 +93,7 @@ def index():
 def upload():
     file = request.files.get("file")
     if not file:
-        return jsonify({"error": "Dosya yok"}), 400
+        return jsonify({"error": "No file provided"}), 400
 
     filename = secure_filename(file.filename) or "image.png"
     stem, _ = os.path.splitext(filename)
