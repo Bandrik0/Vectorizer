@@ -24,6 +24,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy app source
 COPY . .
 
+# Create upload/output directories with proper permissions
+RUN mkdir -p /app/uploads /app/outputs && chmod 755 /app/uploads /app/outputs
+
 # Spaces default port
 ENV PORT=7860 \
     OMP_NUM_THREADS=1 \
