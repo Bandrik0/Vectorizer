@@ -1,4 +1,13 @@
 
+---
+title: Vectorizer Pro
+emoji: 🖼️
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_port: 7860
+---
+
 <div align="center">
 
 <h1>Vectorizer Pro 🖼️➡️🧩</h1>
